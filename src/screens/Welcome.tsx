@@ -21,7 +21,7 @@ const Welcome = () => {
         Controle seus{"\n"} medicamentos {"\n"} de forma facil
       </Text>
 
-      <Image source={welcomeImg} 
+      <Image source ={{uri: welcomeImg}} 
       style={styles.img}
       resizeMode="contain"
        />
