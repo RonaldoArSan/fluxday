@@ -2,10 +2,9 @@ import { StatusBar } from "expo-status-bar";
 
 import { useFonts } from "expo-font";
 
-
 import { useCallback } from "react";
 import Welcome from "./src/screens/Welcome";
-
+import Sign from './src/screens/Sign'
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -25,5 +24,10 @@ export default function App() {
     return null;
   }
 
-  return   <Welcome/>;
+  return (
+  <Sign/>
+
+  
+  )
+
 }
